@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="dist/output.css" rel="stylesheet">
 </head>
 
@@ -68,7 +69,7 @@
     <section id="home" class="pt-24 lg:pt-20">
         <div class="container mb-20">
             <div class="flex flex-wrap lg:justify-center">
-                <div class="w-full self-center px-4 lg:px-12 lg:w-1/2">
+                <div class="w-full self-center px-4 lg:px-12 lg:w-1/2" data-aos="fade-up">
                     <h1 class="text-base font-semibold text-primary mb-2 md:text-xl">
                         Hi, My Name Is
                         <span class="block font-extrabold text-dark text-3xl lg:text-5xl">
@@ -97,8 +98,8 @@
                         <i class="fab fa-telegram"></i> Hubungi Saya
                     </a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="-ml-10 lg:-mr-10 lg:block">
+                <div class="w-full self-end px-4 lg:w-1/2" data-aos="fade-up" data-aos-delay="500">
+                    <div class="flex justify-center lg:-mr-10 lg:block">
                         <img src="dist/img/homepage.png" alt="Shndy" class="w-11/12 lg:max-w-lg mx-auto">
                     </div>
                 </div>
@@ -162,6 +163,22 @@
                             </div>
 
                             <div class="m-2">
+                                <h4 class="text-base font-medium text-white lg:text-2xl">Siswa
+                                    Berprestasi Putra</h4>
+                                <p class="text-[13px] my-1 text-white lg:text-base"> Top 30 </p>
+                                <p class="text-[13px] text-white lg:text-base">08 Februari 2018</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap">
+                            <div class="relative mt-[10px]">
+                                <span class="px-1 lg:py-1 bg-white rounded-full">
+                                    <i class="fas fa-trophy text-xs text-primary lg:text-xl"></i>
+                                </span>
+                                <span
+                                    class="px-[2px] py-12 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"></span>
+                            </div>
+
+                            <div class="m-2">
                                 <h4 class="text-base font-medium text-white lg:text-2xl">LKS Web Technologies</h4>
                                 <p class="text-[13px] my-1 text-white lg:text-base"> Top 15 </p>
                                 <p class="text-[13px] text-white lg:text-base">26 November 2022</p>
@@ -206,70 +223,57 @@
                                 <img src="dist/img/skill/html.png" alt="html logo" class="w-1/2">
                             </div>
                             <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/css.png" alt="html logo" class="w-1/2">
+                                <img src="dist/img/skill/css.png" alt="CSS logo" class="w-1/2">
                             </div>
                             <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/js.jpg" alt="html logo" class="w-1/2">
+                                <img src="dist/img/skill/js.jpg" alt="JS logo" class="w-1/2">
                             </div>
                             <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/php.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/kotlin.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/cpp.png" alt="html logo" class="w-1/2">
+                                <img src="dist/img/skill/php.png" alt="PHP logo" class="w-1/2">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="w-full my-8">
-                        <h1 class="text-lg font-semibold lg:text-2xl mb-2">Framework:</h1>
-                        <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/tailwind.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/bootsrap.png" alt="html logo" class="w-1/2">
+                        <div class="w-full my-8">
+                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Framework:</h1>
+                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss logo" class="w-1/2">
+                                </div>
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/bootsrap.png" alt="bootstrap logo" class="w-1/2">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="w-full my-8">
-                        <h1 class="text-lg font-semibold lg:text-2xl mb-2">Database:</h1>
-                        <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/mysql.png" alt="html logo" class="w-1/2">
+                        <div class="w-full my-8">
+                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Database:</h1>
+                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/mysql.png" alt="MySql logo" class="w-1/2">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="w-full my-8">
-                        <h1 class="text-lg font-semibold lg:text-2xl mb-2">Tools:</h1>
-                        <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/vscode.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/idea.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/devcpp.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/github.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/Git.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/xampp.jpg" alt="html logo" class="w-1/2">
+                        <div class="w-full my-8">
+                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Tools:</h1>
+                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/vscode.png" alt="vscode logo" class="w-1/2">
+                                </div>
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/github.png" alt="github logo" class="w-1/2">
+                                </div>
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/Git.png" alt="git logo" class="w-1/2">
+                                </div>
+                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
+                                    <img src="dist/img/skill/xampp.jpg" alt="xampp logo" class="w-1/2">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- skill section end -->
 
@@ -418,30 +422,37 @@
                 </div>
             </div>
 
-            <form action="">
-                <div class="w-full lg:w-2/3 lg:mx-auto">
-                    <div class="w-full px-4 mb-8">
-                        <label for="name" class="text-base font-bold text-primary">Nama:</label>
-                        <input type="text" id="name"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary">
+            <div class="w-full flex justify-center flex-wrap">
+                <div class="flex justify-center mb-10 lg:justify-evenly lg:items-center">
+                    <div
+                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-wa hover:border-wa hover:text-white transition duration-300">
+                        <a href="https://api.whatsapp.com/send?phone=6283872276428" target="_blank"><i
+                                class="fab fa-whatsapp"></i>
+                        </a>
                     </div>
-                    <div class="w-full px-4 mb-8">
-                        <label for="email" class="text-base font-bold text-primary">Email:</label>
-                        <input type="email" id="email"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary">
+                    <div
+                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-ig hover:border-ig hover:text-white transition duration-300">
+                        <a href="https://instagram.com/firshndydw67_" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="w-full px-4 mb-8">
-                        <label for="message" class="text-base font-bold text-primary">Pesan:</label>
-                        <textarea type="text" id="message"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary h-32">
-                    </textarea>
-                    </div>
-                    <div class="w-full px-4">
-                        <button
-                            class="text-base font-semibold text-white bg-primary py-3 px-8  rounded-full  w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                    <div
+                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-black hover:border-black hover:text-white transition duration-300">
+                        <a href="https://github.com/firshndydw67" target="_blank"><i class="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
-            </form>
+
+                <div class="flex justify-center w-3/4 lg:w-full">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30599.931506956844!2d106.57443755353238!3d-6.1645523322773395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693077458492!5m2!1sid!2sid"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="lg:hidden"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31733.723759844353!2d106.57036324801724!3d-6.168841886720562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693078231218!5m2!1sid!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="hidden lg:block"></iframe>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Contact Form end -->
@@ -508,17 +519,6 @@
                                     d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                             </svg>
                         </a>
-
-                        <!-- telegram -->
-                        <a href="https://t.me/Shndydw67" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-500">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>Telegram</title>
-                                <path
-                                    d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -541,6 +541,10 @@
 
 
     <script src="dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
