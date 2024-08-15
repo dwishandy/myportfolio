@@ -1,554 +1,796 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Firshandy Dwi Cahyo | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="dist/output.css" rel="stylesheet">
-</head>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
 
-<body class="font-kanit overflow-x-hidden">
-
+  <body class="font-kanit overflow-x-hidden">
     <!-- header start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-        <div class="container">
-            <div class="flex item-center justify-between relative">
-                <div class="px-4">
-                    <a href="#home" class="font-bold text-2xl text-primary block py-6">ShnnDyD</a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex item-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-2xl text-primary block py-6"
+              >ShnnDyD</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
 
-                    <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
-                            </li>
-                            <li class="group">
-                                <a href="#skill"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Skills</a>
-                            </li>
-                            <li class="group">
-                                <a href="#project"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Project</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#skill"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Skills</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#project"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Project</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <!-- header end -->
 
-
     <!-- herosection start -->
     <section id="home" class="pt-24 lg:pt-20">
-        <div class="container mb-20">
-            <div class="flex flex-wrap lg:justify-center">
-                <div class="w-full self-center px-4 lg:px-12 lg:w-1/2" data-aos="fade-up">
-                    <h1 class="text-base font-semibold text-primary mb-2 md:text-xl">
-                        Hi, My Name Is
-                        <span class="block font-extrabold text-dark text-3xl lg:text-5xl">
-                            Firshandy Dwi Cahyo
-                        </span>
-                    </h1>
-                    <h2 class="font-medium text-secondary text-base mb-2 lg:text-xl">
-                        I'm a
-                        <span class="text-primary">
-                            Junior Front-end Programmer
-                        </span>
-                        &
-                        <span class="text-primary">
-                            Computer Technician
-                        </span>
-                        from Tangerang, Indonesia.
-                    </h2>
-                    <div class="mb-4 lg:mb-10">
-                        <ul class="flex">
-                            <li class="mx-1"> <a href="https://www.instagram.com/firshndydw67_/"><i
-                                        class="fab fa-instagram hover:opacity-50 transition duration-300 ease-in-out lg:text-xl"></i></a>
-                            </li>
-                            <li class="mx-1"> <a href="https://github.com/firshndydw67"><i
-                                        class="fab fa-github hover:opacity-50 transition duration-300 ease-in-out lg:text-xl"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="#"
-                        class="text-sm font-semibold text-white bg-primary py-3 px-4 rounded-lg hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out lg:text-xl">
-                        <i class="fab fa-telegram"></i> Hubungi Saya
-                    </a>
-                </div>
-                <div class="w-full self-end px-4 lg:w-1/2" data-aos="fade-up" data-aos-delay="500">
-                    <div class="flex justify-center lg:-mr-10 lg:block">
-                        <img src="dist/img/homepage.png" alt="Shndy" class="w-11/12 lg:max-w-lg mx-auto">
-                    </div>
-                </div>
+      <div class="container mb-20">
+        <div class="flex flex-wrap lg:justify-center">
+          <div
+            class="w-full self-center px-4 lg:px-12 lg:w-1/2"
+            data-aos="fade-up"
+          >
+            <h1 class="text-base font-semibold text-primary mb-2 md:text-xl">
+              Hi, My Name Is
+              <span class="block font-extrabold text-dark text-3xl lg:text-5xl">
+                Firshandy Dwi Cahyo
+              </span>
+            </h1>
+            <h2 class="font-medium text-secondary text-base mb-2 lg:text-xl">
+              I'm a
+              <span class="text-primary"> Junior Front-end Programmer </span>
+              from Tangerang, Indonesia.
+            </h2>
+            <div class="mb-4 lg:mb-10">
+              <ul class="flex">
+                <li class="mx-1">
+                  <a href="https://www.instagram.com/firshndydw67_/"
+                    ><i
+                      class="fab fa-instagram hover:opacity-50 transition duration-300 ease-in-out lg:text-xl"
+                    ></i
+                  ></a>
+                </li>
+                <li class="mx-1">
+                  <a href="https://github.com/firshndydw67"
+                    ><i
+                      class="fab fa-github hover:opacity-50 transition duration-300 ease-in-out lg:text-xl"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
             </div>
+            <a
+              href="#"
+              class="text-sm font-semibold text-white bg-primary py-3 px-4 rounded-lg hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out lg:text-xl"
+            >
+              <i class="fab fa-telegram"></i> Hubungi Saya
+            </a>
+          </div>
+          <div
+            class="w-full self-end px-4 lg:w-1/2"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="flex justify-center lg:-mr-10 lg:block">
+              <img
+                src="dist/img/homepage.png"
+                alt="Shndy"
+                class="w-11/12 lg:max-w-lg mx-auto"
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- herosection end -->
 
-
     <!-- about section start -->
     <section id="about">
-        <div class="container bg-primary pb-8 w-full">
-            <div class="flex flex-wrap justify-center items-center">
-                <div class="w-full py-24 px-4 lg:w-3/4">
-                    <h4 class="font-bold text-white text-2xl mb-6 lg:text-4xl text-center">
-                        About
-                    </h4>
-                    <div class="w-full">
-                        <p class="text-white text-xs lg:text-lg">Hi everyone, my name is <span
-                                class="font-bold text-sm lg:text-xl">Firshandy Dwi
-                                Cahyo</span>. I am a Junior Front-End programmer, TKJ Student, Free/Libre and Open
-                            Source, Coding is my passion and hobby since I was 16 years old, and I love computer since I
-                            was a kid.
-                        </p>
-                        <p class="text-white my-5 text-xs lg:text-lg">I live in Periuk, Tangerang, Indonesia. I was born
-                            in Tangerang, 21 October 2007. I am 16 years old. I am a TKJ student from SMKN 2 Kabupaten
-                            Tangerang.</p>
-                    </div>
-
-                    <div class="w-full mt-6 lg:mt-14">
-                        <h1 class="text-lg lg:text-3xl text-white font-medium">Education</h1>
-
-                        <div class="flex">
-                            <div class="relative mt-[10px]">
-                                <span class="px-1 lg:py-1 bg-white rounded-full">
-                                    <i class="fas fa-graduation-cap text-xs text-primary lg:text-xl"></i>
-                                </span>
-                                <span
-                                    class="px-[2px] py-9 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"></span>
-                            </div>
-
-                            <div class="m-2">
-                                <h4 class="text-base font-medium text-white lg:text-2xl">Sekolah Menengah Kejuruan</h4>
-                                <p class="text-[13px] mt-2 text-white lg:text-base">SMKN 2 Kabupaten Tangerang</p>
-                                <p class="text-[13px] my-1 text-white lg:text-base">Teknik Komputer Dan Jaringan</p>
-                                <p class="text-[13px] text-white lg:text-base">2022 - Now</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-full mt-6 lg:mt-14">
-                        <h1 class="text-lg lg:text-3xl text-white font-medium">Competition</h1>
-
-                        <div class="flex flex-wrap">
-                            <div class="relative mt-[10px]">
-                                <span class="px-1 lg:py-1 bg-white rounded-full">
-                                    <i class="fas fa-trophy text-xs text-primary lg:text-xl"></i>
-                                </span>
-                                <span
-                                    class="px-[2px] py-12 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"></span>
-                            </div>
-
-                            <div class="m-2">
-                                <h4 class="text-base font-medium text-white lg:text-2xl">Siswa
-                                    Berprestasi Putra</h4>
-                                <p class="text-[13px] my-1 text-white lg:text-base"> Top 30 </p>
-                                <p class="text-[13px] text-white lg:text-base">08 Februari 2018</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap">
-                            <div class="relative mt-[10px]">
-                                <span class="px-1 lg:py-1 bg-white rounded-full">
-                                    <i class="fas fa-trophy text-xs text-primary lg:text-xl"></i>
-                                </span>
-                                <span
-                                    class="px-[2px] py-12 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"></span>
-                            </div>
-
-                            <div class="m-2">
-                                <h4 class="text-base font-medium text-white lg:text-2xl">LKS Web Technologies</h4>
-                                <p class="text-[13px] my-1 text-white lg:text-base"> Top 15 </p>
-                                <p class="text-[13px] text-white lg:text-base">26 November 2022</p>
-                            </div>
-                        </div>
-
-                        <div class="flex flex-wrap">
-                            <div class="relative mt-[10px]">
-                                <span class="px-1 lg:py-1 bg-white rounded-full">
-                                    <i class="fas fa-trophy text-xs text-primary lg:text-xl"></i>
-                                </span>
-                                <span
-                                    class="px-[2px] py-6 lg:py-9 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"></span>
-                            </div>
-
-                            <div class="m-2">
-                                <h4 class="text-base font-medium text-white lg:text-2xl">CSS E-Sport WPU</h4>
-                                <p class="text-[13px] my-1 text-white lg:text-base"> Qualifying</p>
-                                <p class="text-[13px] text-white lg:text-base">28 Desember 2022</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container bg-primary pb-8 w-full">
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-full py-24 px-4 lg:w-3/4">
+            <h4
+              class="font-bold text-white text-2xl mb-6 lg:text-4xl text-center"
+            >
+              About
+            </h4>
+            <div class="w-full">
+              <p class="text-white text-xs lg:text-lg">
+                Hi everyone, my name is
+                <span class="font-bold text-sm lg:text-xl"
+                  >Firshandy Dwi Cahyo</span
+                >. I am a Junior Front-End programmer, TKJ Student, Free/Libre
+                and Open Source, Coding is my passion and hobby since I was 16
+                years old, and I love computer since I was a kid.
+              </p>
+              <p class="text-white my-5 text-xs lg:text-lg">
+                I live in Periuk, Tangerang, Indonesia. I was born in Tangerang,
+                21 October 2007. I am a TKJ student from SMKN 2 Kabupaten
+                Tangerang.
+              </p>
             </div>
+
+            <div class="w-full mt-6 lg:mt-14">
+              <h1 class="text-lg lg:text-3xl text-white font-medium">
+                Education
+              </h1>
+
+              <div class="flex">
+                <div class="relative mt-[10px]">
+                  <span class="px-1 lg:py-1 bg-white rounded-full">
+                    <i
+                      class="fas fa-graduation-cap text-xs text-primary lg:text-xl"
+                    ></i>
+                  </span>
+                  <span
+                    class="px-[2px] py-9 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"
+                  ></span>
+                </div>
+
+                <div class="m-2">
+                  <h4 class="text-base font-medium text-white lg:text-2xl">
+                    Sekolah Menengah Kejuruan
+                  </h4>
+                  <p class="text-[13px] mt-2 text-white lg:text-base">
+                    SMKN 2 Kabupaten Tangerang
+                  </p>
+                  <p class="text-[13px] my-1 text-white lg:text-base">
+                    Teknik Komputer Dan Jaringan
+                  </p>
+                  <p class="text-[13px] text-white lg:text-base">2022 - Now</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full mt-6 lg:mt-14">
+              <h1 class="text-lg lg:text-3xl text-white font-medium">
+                Competition
+              </h1>
+
+              <div class="flex flex-wrap">
+                <div class="relative mt-[10px]">
+                  <span class="px-1 lg:py-1 bg-white rounded-full">
+                    <i
+                      class="fas fa-trophy text-xs text-primary lg:text-xl"
+                    ></i>
+                  </span>
+                  <span
+                    class="px-[2px] py-12 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"
+                  ></span>
+                </div>
+
+                <div class="m-2">
+                  <h4 class="text-base font-medium text-white lg:text-2xl">
+                    Siswa Berprestasi Putra
+                  </h4>
+                  <p class="text-[13px] my-1 text-white lg:text-base">Top 30</p>
+                  <p class="text-[13px] text-white lg:text-base">
+                    08 Februari 2018
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap">
+                <div class="relative mt-[10px]">
+                  <span class="px-1 lg:py-1 bg-white rounded-full">
+                    <i
+                      class="fas fa-trophy text-xs text-primary lg:text-xl"
+                    ></i>
+                  </span>
+                  <span
+                    class="px-[2px] py-12 lg:py-12 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"
+                  ></span>
+                </div>
+
+                <div class="m-2">
+                  <h4 class="text-base font-medium text-white lg:text-2xl">
+                    LKS Web Technologies
+                  </h4>
+                  <p class="text-[13px] my-1 text-white lg:text-base">Top 15</p>
+                  <p class="text-[13px] text-white lg:text-base">
+                    26 November 2022
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap">
+                <div class="relative mt-[10px]">
+                  <span class="px-1 lg:py-1 bg-white rounded-full">
+                    <i
+                      class="fas fa-trophy text-xs text-primary lg:text-xl"
+                    ></i>
+                  </span>
+                  <span
+                    class="px-[2px] py-6 lg:py-9 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"
+                  ></span>
+                </div>
+
+                <div class="m-2">
+                  <h4 class="text-base font-medium text-white lg:text-2xl">
+                    CSS E-Sport WPU
+                  </h4>
+                  <p class="text-[13px] my-1 text-white lg:text-base">
+                    Qualifying
+                  </p>
+                  <p class="text-[13px] text-white lg:text-base">
+                    28 Desember 2022
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap">
+                <div class="relative mt-[10px]">
+                  <span class="px-1 lg:py-1 bg-white rounded-full">
+                    <i
+                      class="fas fa-trophy text-xs text-primary lg:text-xl"
+                    ></i>
+                  </span>
+                  <span
+                    class="px-[2px] py-6 lg:py-9 bg-white absolute left-[9px] lg:left-[14px] mt-6 rounded-lg"
+                  ></span>
+                </div>
+
+                <div class="m-2">
+                  <h4 class="text-base font-medium text-white lg:text-2xl">
+                    Liga SMK by Alkademi
+                  </h4>
+                  <p class="text-[13px] my-1 text-white lg:text-base">
+                    Round 1
+                  </p>
+                  <p class="text-[13px] text-white lg:text-base">
+                    04 Desember 2023
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- about section end -->
 
-
     <!-- skill section start -->
     <section id="skill">
-        <div class="container pt-28 mb-20 w-full border-2">
-            <div class="flex flex-wrap justify-center items-center">
-                <div class="w-full px-4 lg:w-3/4">
-                    <h4 class="font-bold text-2xl mb-6 lg:text-4xl text-center text-primary">
-                        Skills
-                    </h4>
-                    <div class="w-full">
-                        <h1 class="text-lg font-semibold lg:text-2xl mb-2">Language:</h1>
-                        <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/html.png" alt="html logo" class="w-1/2">
-                            </div>
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/css.png" alt="CSS logo" class="w-1/2">
-                            </div>
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/js.jpg" alt="JS logo" class="w-1/2">
-                            </div>
-                            <div class="border flex justify-center p-2 hover:opacity-80">
-                                <img src="dist/img/skill/php.png" alt="PHP logo" class="w-1/2">
-                            </div>
-                        </div>
-
-                        <div class="w-full my-8">
-                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Framework:</h1>
-                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss logo" class="w-1/2">
-                                </div>
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/bootsrap.png" alt="bootstrap logo" class="w-1/2">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="w-full my-8">
-                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Database:</h1>
-                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/mysql.png" alt="MySql logo" class="w-1/2">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="w-full my-8">
-                            <h1 class="text-lg font-semibold lg:text-2xl mb-2">Tools:</h1>
-                            <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/vscode.png" alt="vscode logo" class="w-1/2">
-                                </div>
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/github.png" alt="github logo" class="w-1/2">
-                                </div>
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/Git.png" alt="git logo" class="w-1/2">
-                                </div>
-                                <div class="border-2 flex justify-center p-2 hover:opacity-80">
-                                    <img src="dist/img/skill/xampp.jpg" alt="xampp logo" class="w-1/2">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container pt-28 mb-20 w-full border-2">
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-full px-4 lg:w-3/4">
+            <h4
+              class="font-bold text-2xl mb-6 lg:text-4xl text-center text-primary"
+            >
+              Skills
+            </h4>
+            <div class="w-full">
+              <h1 class="text-lg font-semibold lg:text-2xl mb-2">Language:</h1>
+              <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                <div class="border flex justify-center p-2 hover:opacity-80">
+                  <img
+                    src="dist/img/skill/html.png"
+                    alt="html logo"
+                    class="w-1/2"
+                  />
                 </div>
+                <div class="border flex justify-center p-2 hover:opacity-80">
+                  <img
+                    src="dist/img/skill/css.png"
+                    alt="CSS logo"
+                    class="w-1/2"
+                  />
+                </div>
+                <div class="border flex justify-center p-2 hover:opacity-80">
+                  <img
+                    src="dist/img/skill/js.jpg"
+                    alt="JS logo"
+                    class="w-1/2"
+                  />
+                </div>
+                <div class="border flex justify-center p-2 hover:opacity-80">
+                  <img
+                    src="dist/img/skill/php.png"
+                    alt="PHP logo"
+                    class="w-1/2"
+                  />
+                </div>
+              </div>
+
+              <div class="w-full my-8">
+                <h1 class="text-lg font-semibold lg:text-2xl mb-2">
+                  Framework:
+                </h1>
+                <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/tailwind.png"
+                      alt="tailwindcss logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/bootsrap.png"
+                      alt="bootstrap logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full my-8">
+                <h1 class="text-lg font-semibold lg:text-2xl mb-2">
+                  Database:
+                </h1>
+                <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/mysql.png"
+                      alt="MySql logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full my-8">
+                <h1 class="text-lg font-semibold lg:text-2xl mb-2">Tools:</h1>
+                <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/vscode.png"
+                      alt="vscode logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/github.png"
+                      alt="github logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                  <div
+                    class="border-2 flex justify-center p-2 hover:opacity-80"
+                  >
+                    <img
+                      src="dist/img/skill/Git.png"
+                      alt="git logo"
+                      class="w-1/2"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- skill section end -->
 
-
     <!-- project section start -->
     <section id="project">
-        <div class="bg-primary py-24 pb-8 w-full">
-            <div class="flex flex-wrap justify-center">
-                <h4 class="font-bold text-white w-full text-2xl mb-16 lg:text-4xl text-center">
-                    Project
-                </h4>
-                <div class="w-full px-4 flex flex-wrap justify-center xl:w-full xl:mx-auto">
-                    <div class="mb-6 md:w-[30%] rounded-lg">
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/project/project5.png" alt=" my portfolio" width="w-full">
-                        </div>
-                        <div class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3">
-                            <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl"><a href="#">My Portfolio</a></h3>
+      <div class="bg-primary py-24 pb-8 w-full">
+        <div class="flex flex-wrap justify-center">
+          <h4
+            class="font-bold text-white w-full text-2xl mb-16 lg:text-4xl text-center"
+          >
+            Project
+          </h4>
+          <div
+            class="w-full px-4 flex flex-wrap justify-center xl:w-full xl:mx-auto"
+          >
+            <div class="mb-6 md:w-[30%] rounded-lg">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/project/project5.png"
+                  alt=" my portfolio"
+                  width="w-full"
+                />
+              </div>
+              <div
+                class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3"
+              >
+                <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl">
+                  <a href="#">IT Club Nedukabta Website</a>
+                </h3>
 
-                            <div class="flex">
-                                <div>
-                                    <img src="dist/img/skill/html.png" alt="html" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss"
-                                        class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div>
-                                    <img src="dist/img/skill/js.jpg" alt="js" class="w-[25px] lg:w-[30px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 md:w-[30%] rounded-lg lg:mx-6">
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/project/project4.png" alt="Movinfio" width="w-full">
-                        </div>
-                        <div class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3">
-                            <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl"><a href="#">Movinfio</a></h3>
-
-                            <div class="flex">
-                                <div>
-                                    <img src="dist/img/skill/php.png" alt="php" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss" class=" w-[25px]
-                                        lg:w-[30px]">
-                                </div>
-                                <div>
-                                    <img src="dist/img/skill/js.jpg" alt="js" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/mysql.png" alt="mysql" class="w-[25px] lg:w-[30px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 md:w-[30%] rounded-lg">
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/project/project3.png" alt="DyD to do" width="w-full">
-                        </div>
-                        <div class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3">
-                            <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl"><a href="#">DyD to do</a>
-                            </h3>
-
-                            <div class="flex">
-                                <div>
-                                    <img src="dist/img/skill/php.png" alt="php" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss"
-                                        class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div>
-                                    <img src="dist/img/skill/js.jpg" alt="js" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/mysql.png" alt="mysql" class="w-[25px] lg:w-[30px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 md:w-[30%] rounded-lg lg:mx-4">
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/project/project1.png" alt="Simple Confess
-                            Website" width="w-full">
-                        </div>
-                        <div class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3">
-                            <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl"><a href="#">Simple Confess
-                                    Website</a></h3>
-
-                            <div class="flex">
-                                <div>
-                                    <img src="dist/img/skill/html.png" alt="html" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/css.png" alt="css" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div>
-                                    <img src="dist/img/skill/js.jpg" alt="js" class="w-[25px] lg:w-[30px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 md:w-[30%] rounded-lg">
-                        <div class="rounded-md shadow-md overflow-hidden">
-                            <img src="dist/img/project/project2.png" alt="Static Marketplace" width="w-full">
-                        </div>
-                        <div class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3">
-                            <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl"><a href="#">Static
-                                    Marketplace</a></h3>
-
-                            <div class="flex">
-                                <div>
-                                    <img src="dist/img/skill/html.png" alt="html" class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div class="mx-1">
-                                    <img src="dist/img/skill/tailwind.png" alt="tailwindcss"
-                                        class="w-[25px] lg:w-[30px]">
-                                </div>
-                                <div>
-                                    <img src="dist/img/skill/js.jpg" alt="js" class="w-[25px] lg:w-[30px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex">
+                  <div>
+                    <img
+                      src="dist/img/skill/html.png"
+                      alt="html"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div class="mx-1">
+                    <img
+                      src="dist/img/skill/tailwind.png"
+                      alt="tailwindcss"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="dist/img/skill/js.jpg"
+                      alt="js"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-    <!-- projec section end -->
 
+            <div class="mb-6 md:w-[30%] rounded-lg lg:mx-6">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/project/project4.png"
+                  alt="Movinfio"
+                  width="w-full"
+                />
+              </div>
+              <div
+                class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3"
+              >
+                <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl">
+                  <a href="#">Movinfio</a>
+                </h3>
+
+                <div class="flex">
+                  <div>
+                    <img
+                      src="dist/img/skill/php.png"
+                      alt="php"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div class="mx-1">
+                    <img
+                      src="dist/img/skill/tailwind.png"
+                      alt="tailwindcss"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="dist/img/skill/js.jpg"
+                      alt="js"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div class="mx-1">
+                    <img
+                      src="dist/img/skill/mysql.png"
+                      alt="mysql"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6 md:w-[30%] rounded-lg">
+              <div class="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="dist/img/project/project3.png"
+                  alt="DyD to do"
+                  width="w-full"
+                />
+              </div>
+              <div
+                class="w-full pt-6 pb-3 border-2 rounded-bl-lg rounded-br-lg bg-gray-200 px-3"
+              >
+                <h3 class="font-medium text-dark text-lg mb-6 lg:text-2xl">
+                  <a href="#">DyD to do</a>
+                </h3>
+
+                <div class="flex">
+                  <div>
+                    <img
+                      src="dist/img/skill/php.png"
+                      alt="php"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div class="mx-1">
+                    <img
+                      src="dist/img/skill/tailwind.png"
+                      alt="tailwindcss"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="dist/img/skill/js.jpg"
+                      alt="js"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                  <div class="mx-1">
+                    <img
+                      src="dist/img/skill/mysql.png"
+                      alt="mysql"
+                      class="w-[25px] lg:w-[30px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section end -->
 
     <!-- Contact Form start -->
-    <section id="contact" class="pt-36 pb-32 ">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-bold w-full text-2xl mb-16 lg:text-4xl text-center">
-                        Contact Me
-                    </h4>
-                </div>
-            </div>
-
-            <div class="w-full flex justify-center flex-wrap">
-                <div class="flex justify-center mb-10 lg:justify-evenly lg:items-center">
-                    <div
-                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-wa hover:border-wa hover:text-white transition duration-300">
-                        <a href="https://api.whatsapp.com/send?phone=6283872276428" target="_blank"><i
-                                class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                    <div
-                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-ig hover:border-ig hover:text-white transition duration-300">
-                        <a href="https://instagram.com/firshndydw67_" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                    <div
-                        class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-black hover:border-black hover:text-white transition duration-300">
-                        <a href="https://github.com/shnnnds" target="_blank"><i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="flex justify-center w-3/4 lg:w-full">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30599.931506956844!2d106.57443755353238!3d-6.1645523322773395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693077458492!5m2!1sid!2sid"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" class="lg:hidden"></iframe>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31733.723759844353!2d106.57036324801724!3d-6.168841886720562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693078231218!5m2!1sid!2sid"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" class="hidden lg:block"></iframe>
-                </div>
-            </div>
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold w-full text-2xl mb-16 lg:text-4xl text-center">
+              Contact Me
+            </h4>
+          </div>
         </div>
+
+        <div class="w-full flex justify-center flex-wrap">
+          <div
+            class="flex justify-center mb-10 lg:justify-evenly lg:items-center"
+          >
+            <div
+              class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-wa hover:border-wa hover:text-white transition duration-300"
+            >
+              <a
+                href="https://api.whatsapp.com/send?phone=6283872276428"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+            <div
+              class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-ig hover:border-ig hover:text-white transition duration-300"
+            >
+              <a href="https://instagram.com/firshndydw67_" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <div
+              class="border-2 py-1 px-3 rounded-full mx-2 hover:bg-black hover:border-black hover:text-white transition duration-300"
+            >
+              <a href="https://github.com/dwishandy" target="_blank"
+                ><i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="flex justify-center w-3/4 lg:w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30599.931506956844!2d106.57443755353238!3d-6.1645523322773395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693077458492!5m2!1sid!2sid"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="lg:hidden"
+            ></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31733.723759844353!2d106.57036324801724!3d-6.168841886720562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff0e7e7a5d89%3A0x81606fd35eabb62d!2sKec.%20Periuk%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1693078231218!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="hidden lg:block"
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Contact Form end -->
 
-
-
     <!-- footer start -->
     <footer class="bg-dark pt-24 pb-12">
-        <div class="container">
-            <div class="flex flex-wrap justify-center">
-                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-                    <h2 class="font-bold text-4xl text-white mb-5">ShnnDyD</h2>
-                    <div>
-                        <a href="#"><i class="fas fa-envelope"></i> firshandydwi@gmail.com</a>
-                    </div>
-                    <div>
-                        <a href="#"><i class="fas fa-location-dot"></i> Tangerang, Indonesia</a>
-                    </div>
-                </div>
-
-
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h2 class="font-bold text-xl text-white mb-5">Tautan</h2>
-                    <ul class="text-slate-300">
-                        <li>
-                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">About</a>
-                        </li>
-                        <li>
-                            <a href="#skills" class="inline-block text-base hover:text-primary mb-3">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#project" class="inline-block text-base hover:text-primary mb-3">Project</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h2 class="font-bold text-xl text-white mb-5">Follow US</h2>
-                    <div class="flex">
-                        <a href="https://www.instagram.com/firshndydw67_/" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-500">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>Instagram</title>
-                                <path
-                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
-                            </svg>
-                        </a>
-
-                        <!-- github -->
-                        <a href="https://github.com/firshandyDw67" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-500">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <title>GitHub</title>
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">ShnnDyD</h2>
+            <div>
+              <a href="#"
+                ><i class="fas fa-envelope"></i> firshandydwi@gmail.com</a
+              >
             </div>
-            <div class="w-full pt-10 border-t border-slate-700">
-                <div class="flex item-center justify-center mb-5">
-                    <!-- instagram -->
-
-                </div>
-                <p class="font-medium text-slate-500 text-xs text-center">Created by <span
-                        class="text-base font-bold">ShnnDyD</span>&copy; 2023
-                </p>
+            <div>
+              <a href="#"
+                ><i class="fas fa-location-dot"></i> Tangerang, Indonesia</a
+              >
             </div>
+          </div>
+
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h2 class="font-bold text-xl text-white mb-5">Tautan</h2>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#project"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h2 class="font-bold text-xl text-white mb-5">Follow US</h2>
+            <div class="flex">
+              <a
+                href="https://www.instagram.com/firshndydw67_/"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-500"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+
+              <!-- github -->
+              <a
+                href="https://github.com/dwishandy"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-500"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  class="fill-current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex item-center justify-center mb-5">
+            <!-- instagram -->
+          </div>
+          <p class="font-medium text-slate-500 text-xs text-center">
+            Created by <span class="text-base font-bold">ShnnDyD</span>&copy;
+            2023
+          </p>
+        </div>
+      </div>
     </footer>
     <!-- footer end -->
-
-
-
-
-
 
     <script src="dist/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
-
+  </body>
 </html>
